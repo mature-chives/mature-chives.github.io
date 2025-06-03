@@ -1,21 +1,21 @@
 {
   "site": {
-    "title": "Looks Blog",
-    "description": "A personal blog powered by GitHub Issues",
-    "url": "https://blog-test.778801.xyz",
-    "author": "Master08s",
-    "avatar": "https://images.weserv.nl/?url=https://raw.githubusercontent.com/Master08s/img/main/img/202506021808074.png",
-    "favicon": "https://images.weserv.nl/?url=https://raw.githubusercontent.com/Master08s/img/main/img/202506021808074.png",
+    "title": "您的博客标题",
+    "description": "您的博客描述",
+    "url": "https://mature-chives.github.io",
+    "author": "mature-chives",
+    "avatar": "https://github.com/mature-chives.png",
+    "favicon": "https://github.com/mature-chives.png",
     "language": "zh-CN",
-    "date":"2025-05-31"
+    "date": "2024-03-21"
   },
   "github": {
-    "owner": "Master08s",
-    "repo": "looks-blog",
+    "owner": "mature-chives",
+    "repo": "mature-chives.github.io",
     "token": "process.env.GITHUB_TOKEN"
   },
   "social": {
-    "github": "https://github.com/Master08s"
+    "github": "https://github.com/mature-chives"
   },
   "build": {
     "postsPerPage": 10,
@@ -35,7 +35,7 @@
     "description": "使用 weserv.nl 图片代理服务加速图片加载。设置 enabled 为 false 可关闭此功能"
   },
   "seo": {
-    "keywords": ["博客", "GitHub Issues", "个人网站", "技术分享"],
+    "keywords": ["技术博客", "个人博客", "GitHub Pages", "技术分享", "编程笔记"],
     "generateSitemap": true,
     "description": "SEO 优化配置。keywords 为网站关键词数组，generateSitemap 控制是否生成 sitemap.xml"
   },
@@ -43,10 +43,10 @@
     "enabled": true,
     "provider": "giscus",
     "giscus": {
-      "repo": "Master08s/looks-blog",
-      "repoId": "R_kgDOO0NW3w",
+      "repo": "mature-chives/mature-chives.github.io",
+      "repoId": "",
       "category": "General",
-      "categoryId": "DIC_kwDOO0NW384Cq7p2",
+      "categoryId": "",
       "mapping": "pathname",
       "strict": "0",
       "reactionsEnabled": "1",
@@ -56,7 +56,7 @@
       "lang": "zh-CN"
     },
     "utterances": {
-      "repo": "Master08s/looks-blog",
+      "repo": "mature-chives/mature-chives.github.io",
       "issueTerm": "pathname",
       "label": "comment",
       "theme": "github-light"
@@ -64,9 +64,9 @@
     "gitalk": {
       "clientID": "",
       "clientSecret": "",
-      "repo": "looks-blog",
-      "owner": "Master08s",
-      "admin": ["Master08s"],
+      "repo": "mature-chives.github.io",
+      "owner": "mature-chives",
+      "admin": ["mature-chives"],
       "id": "pathname",
       "distractionFreeMode": false,
       "language": "zh-CN"
