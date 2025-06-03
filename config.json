@@ -1,13 +1,13 @@
 {
   "site": {
-    "title": "Personal Blog",
+    "title": "mature-chives",
     "description": "Personal Blog",
     "url": "https://mature-chives.github.io",
     "author": "mature-chives",
     "avatar": "https://github.com/mature-chives.png",
     "favicon": "https://github.com/mature-chives.png",
     "language": "zh-CN",
-    "date": "2024-03-21"
+    "date": "2025-06-03"
   },
   "github": {
     "owner": "mature-chives",
@@ -44,14 +44,14 @@
     "provider": "giscus",
     "giscus": {
       "repo": "mature-chives/mature-chives.github.io",
-      "repoId": "",
+      "repoId": "R_kgDOO1TXXA",
       "category": "General",
-      "categoryId": "",
+      "categoryId": "DIC_kwDOO1TXXM4Cq_At",
       "mapping": "pathname",
       "strict": "0",
       "reactionsEnabled": "1",
       "emitMetadata": "0",
-      "inputPosition": "top",
+      "inputPosition": "bottom",
       "theme": "preferred_color_scheme",
       "lang": "zh-CN"
     },
