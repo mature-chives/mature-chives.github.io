@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Test",
+    "excerpt": "欢迎来到我的技术博客 🎉\n\n...",
+    "url": "/posts/1.html",
+    "created_at": "2025-06-03",
+    "labels": [
+      {
+        "name": "good first issue",
+        "color": "7057ff"
+      }
+    ]
+  }
+]

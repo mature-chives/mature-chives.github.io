@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Personal Blog</title>
+
+    <title>good first issue | Personal Blog</title>
     <meta name="description" content="Personal Blog" />
     <meta name="keywords" content="技术博客, 个人博客, GitHub Pages, 技术分享, 编程笔记" />
 
@@ -72,7 +72,14 @@
       </div>
     </header>
 
+    <!-- 分类标题 -->
+    <div class="mb-8 text-center font-serif text-2xl font-bold">
+      <span class="icon-[material-symbols--folder-outline-rounded] iconify-inline"></span>
+      <span>good first issue</span>
+    </div>
+
     <main class="mx-auto max-w-[768px]">
+      <!-- 文章列表 -->
       <div class="flex flex-col gap-5">
         
           <a href="/posts/1.html" class="index-post-card hover:shadow-card text-black transition duration-300">
@@ -100,50 +107,28 @@
         
       </div>
 
-      <!-- Pagination -->
-      <div class="mt-8 flex justify-center gap-4">
-        
-        <span class="text-gray">第 1 页 / 共 1 页</span>
-        
-      </div>
+      <!-- 返回分类页 -->
+      <!-- <div class="mt-12 text-center">
+        <a href="/categories.html" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors duration-200">
+          <span class="icon-[material-symbols--arrow-back-rounded]"></span>
+          返回所有分类
+        </a>
+      </div> -->
     </main>
 
     <footer class="pt-20 pb-6">
-    <div class="flex flex-col items-center gap-1">
-    <div>
-      © <span id="current-year"></span> · mature-chives
-    </div>
-    <div>
-      Powered by <a href="https://github.com/mature-chives/mature-chives.github.io">GitHub Issues</a>
-    </div>
-    <div id="running-days" class="2024-03-21"></div>
-    </div>
+      <div class="flex flex-col items-center gap-1">
+        <div>
+          © <span id="current-year"></span> · mature-chives
+        </div>
+        <div>
+          Powered by <a href="https://github.com/mature-chives/mature-chives.github.io">GitHub Issues</a>
+        </div>
+      </div>
     </footer>
 
     <script>
-    // 设置当前年份
       document.getElementById('current-year').textContent = new Date().getFullYear();
-
-      // 计算运行天数
-      const runningDaysElement = document.getElementById('running-days');
-      const startDateString = runningDaysElement.className; // 从class获取建站日期
-      const startDate = new Date(startDateString); // 解析日期字符串
-      const currentDate = new Date();
-      const timeDiff = currentDate - startDate;
-      const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-
-      runningDaysElement.textContent = `本站已运行 ${daysDiff} 天`;
-
-      document.addEventListener("DOMContentLoaded", () => {
-          if (typeof main !== 'undefined') {
-              main.generateTOC && main.generateTOC();
-              main.scrollHighlightTOC && main.scrollHighlightTOC();
-              main.clickHighlightTOC && main.clickHighlightTOC();
-              main.wordCountAndReadTime && main.wordCountAndReadTime();
-              main.generateTimeTips && main.generateTimeTips();
-              main.addIconToLinks && main.addIconToLinks();
-          }
-      });
     </script>
   </body>
 </html>
